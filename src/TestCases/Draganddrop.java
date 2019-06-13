@@ -11,6 +11,8 @@ public class Draganddrop {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+// rtest
+
 		 System.setProperty("webdriver.chrome.driver","C:\\Users\\qbuser\\Downloads\\chromedriver.exe");
 		 WebDriver driver = new ChromeDriver();
 		 driver.manage().window().maximize();
@@ -28,6 +30,7 @@ public class Draganddrop {
 		 a.dragAndDrop(source, target).build().perform();
 		 driver.switchTo().defaultContent();
 		 driver.findElement(By.linkText("Accept")).click();
+		 //testing hkkh jhgjhhg
 		
 	}
 
